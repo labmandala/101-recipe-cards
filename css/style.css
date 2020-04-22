@@ -108,3 +108,39 @@ main {
 .time strong {
 	font-family: 'Montserrat', sans-serif;
 }
+
+.columns {
+	overflow: auto;
+}
+
+.directions {
+	float: left;
+	width: 240px;
+}
+
+.ingredients {
+	float: left;
+	margin-right: 15px;
+	width: 205px;
+}
+
+.recipe h3 {
+	padding: 6px;
+	border: 1px solid #3b3b3b;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #F16059;
+}
+
+.ingredients ul {
+	padding-left: 15px;
+	line-height: 24px;
+	list-style-type: square;
+}
+
+.directions ol {
+	padding-left: 15px;
+	line-height: 24px;
+}
